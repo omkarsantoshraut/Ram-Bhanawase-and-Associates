@@ -1,0 +1,101 @@
+.services{
+  /* margin-left: 5%;
+  margin-right: 5% */
+  clear: both;
+  position: relative;
+  padding-top: 5%;
+}
+.service{
+  float: left;
+  width: 21%;
+  margin-left: 1.7%;
+  margin-right: 1.7%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
+}
+.services h1{
+  text-align: center;
+  font-size: 50px;
+}
+.service img{
+  height: 300px;
+  width: 90%;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.service h2{
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: bold;
+  font-size: 30px;
+}
+.service p{
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 25px;
+}
+.service:hover{
+  box-shadow: 1px 1px 10px 1px;
+}
+
+
+  @media screen and (max-width: 1040px) {
+    .service{
+      width: 29%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .services h1{
+      font-size: 40px;
+    }
+    .service h2{
+      font-size: 25px;
+    }
+    .service p{
+      font-size: 20px;
+    }
+    .service img{
+      height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .service{
+      width: 45%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .services h1{
+      font-size: 30px;
+    }
+    .service h2{
+      font-size: 20px;
+    }
+    .service p{
+      font-size: 18px;
+    }
+    .service img{
+      height: 250px;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+  .service{
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .services h1{
+    font-size: 20px;
+  }
+  .service h2{
+    font-size: 18px;
+  }
+  .service p{
+    font-size: 16px;
+  }
+  .service img{
+    height: 250px;
+  }
+}

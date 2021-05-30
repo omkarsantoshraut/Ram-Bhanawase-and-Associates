@@ -1,0 +1,205 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.name{
+  margin-top: -4%;
+}
+.name p{
+  text-align: center;
+  font-family: 'Akronim';
+  font-size: 50px;
+  color: white;
+  background-image: linear-gradient(to right, black, red);
+}
+
+.nav{
+  text-align: center;
+  height: 130px;
+  background-image: linear-gradient(to right, black, red);
+  margin-top: -4%;
+
+}
+.outer1{
+  float: left;
+  width: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.outer2{
+  float: left;
+  width: 80%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* logo image customization */
+.outer1 a img{
+  box-shadow: 10px 10px 10px blue;
+}
+.column1 a{
+  float: left;
+  width: 50%;
+  text-decoration: none;
+  margin-top: -0.3%;
+  color: white;
+}
+.column2 a{
+  float: left;
+  width: 14.2857%;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.column2 a p:hover{
+  border-bottom: 3px solid orange;
+  padding-top: 2px;
+  font-weight: bold;
+  transition: .5s;
+}
+.column1 a p:hover{
+  font-weight: bold;
+}
+
+.nav1{
+  display: none;
+  text-align: center;
+}
+
+.nav1{
+  background-image: linear-gradient(to right, black, red);
+  min-height: 210px;
+  display:none;
+}
+.res0{
+  float: left;
+  width: 100%;
+}
+.res0 a img,
+.res01 a img{
+  width: 100px;
+  box-shadow: 5px 5px 10px blue;
+  padding-top: 1%;
+}
+.res1,
+.res11{
+  float: left;
+  width: 100%;
+}
+.res11 a{
+  font-family: 'Akronim';
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+.res2{
+  float: left;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.res21{
+  float: left;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.res1 a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Akronim';
+  font-size: 50px;
+}
+.nav3{
+  text-align: center;
+  background-image: linear-gradient(to right, black, red);
+  display: none;
+  overflow: visible;
+}
+.nav3 a{
+  color: white;
+  text-decoration: none;
+}
+.nav3 a p:hover{
+  border-bottom: 3px solid orange;
+  padding-top: 2px;
+  font-weight: bold;
+  transition: .5s;
+}
+.nav32 a p,
+.nav31 a p{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+@media screen and (max-width: 1040px) {
+  .nav1{
+    display: block;
+  }
+  .nav{
+    display: none;
+  }
+  .res1,
+  .res2,
+  .res11,
+  .res21{
+    width: 100%;
+  }
+  .res1 a
+  .nav1{
+    min-height: 130px;
+  }
+  .nav31{
+    margin-top: 70px;
+  }
+  .name{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 643px) {
+  .nav1{
+    min-height: 220px;
+  }
+  .res21{
+    width: 19%;
+  }
+  .res2,
+  .res21{
+    margin-top: 10px;
+    padding-right: 1%;
+  }
+  .nav31{
+    margin-top: 100px;
+  }
+  .res1,
+  .res2,
+  .res11,
+  .res21{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 512px) {
+  .nav1{
+    min-height: 300px;
+  }
+  .nav31{
+    margin-top: 170px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .nav1{
+    min-height: 220px;
+  }
+  .res1 a,
+  .res11 a{
+    font-size: 30px;
+  }
+  .nav31{
+    margin-top: 80px;
+  }
+}

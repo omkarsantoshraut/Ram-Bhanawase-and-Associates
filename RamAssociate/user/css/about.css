@@ -1,0 +1,101 @@
+.aboutback {
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+.aboutback:before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url('s.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.aboutback div {
+  position: relative;
+}
+
+.about1{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  color: white;
+}
+.about2{
+  float: left;
+  width: 30%;
+  color: white;
+}
+.about3{
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  color: white;
+}
+.about1 h1,
+.about2 h1,
+.about3 h1{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+
+}
+.about1 p,
+.about2 p,
+.about3 p{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 22px;
+  text-align: center;
+}
+.about1:hover,
+.about2:hover,
+.about3:hover{
+  box-shadow: 1px 1px 10px 1px;
+}
+
+
+
+@media screen and (max-width: 1040px) {
+  .about1,
+  .about2,
+  .about3{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .about1 h1,
+  .about2 h1,
+  .about3 h1{
+    font-size: 40px;
+
+  }
+  .about1 p,
+  .about2 p,
+  .about3 p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about1 p,
+  .about2 p,
+  .about3 p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about1 p,
+  .about2 p,
+  .about3 p{
+    font-size: 16px;
+  }
+}

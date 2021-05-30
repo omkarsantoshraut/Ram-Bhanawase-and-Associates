@@ -1,0 +1,57 @@
+
+.change_pass,
+.home,
+.service,
+.key,
+.about,
+.links,
+.gallery{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.edit{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: 1px 1px 10px 1px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.edit h2{
+  text-align: center;
+}
+button{
+  border: 0;
+  padding: 1% 2%;
+  background-color: #5499C7;
+  color: white;
+  border-radius: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+button:hover{
+    box-shadow: 1px 1px 10px 1px red;
+}
+.edit a{
+  text-decoration: none;
+}
+
+
+
+
+.foot{
+  text-align: center;
+  background-image: linear-gradient(to right, black, red);
+  position: relative;
+  clear: both;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 20px;
+}

@@ -1,0 +1,94 @@
+
+
+.back {
+  position: relative;
+  clear: both;
+  background: black;
+  overflow: hidden;
+  padding-bottom: 2%;
+}
+
+.back:before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url('3.jpeg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.back div {
+  position: relative;
+}
+
+.point1{
+  width: 40%;
+  margin-left: 50%;
+  color: white;
+}
+.point1 h1{
+  text-align: center;
+  font-size: 50px;
+}
+.point1 ul li{
+  list-style-type: decimal;
+  padding-left: 5%;
+  font-size: 25px;
+  margin-top: 2%;
+}
+.point1:hover{
+  color: orange;
+}
+
+  @media screen and (max-width: 1040px) {
+    .point1{
+      width: 60%;
+      margin-left: 20%;
+    }
+    .point1 h1{
+      font-size: 40px;
+    }
+    .point1 ul li{
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .point1{
+      width: 80%;
+      margin-left: 10%;
+    }
+    .point1 h1{
+      font-size: 30px;
+    }
+    .point1 ul li{
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .point1{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .point1 h1{
+      font-size: 30px;
+    }
+    .point1 ul li{
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .point1{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .point1 h1{
+      font-size: 25px;
+    }
+    .point1 ul li{
+      font-size: 16px;
+    }
+  }

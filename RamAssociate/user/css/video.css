@@ -1,0 +1,59 @@
+.gal{
+
+}
+.gal h1{
+  text-align: center;
+  font-size: 50px;
+}
+.gallery{
+  float: left;
+  width: 21%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.gallery p{
+  text-align: center;
+}
+.gallery video{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.gallery video:hover{
+  box-shadow: 1px 1px 10px 1px;
+}
+
+
+@media screen and (max-width: 1040px) {
+  .gallery{
+    width: 27%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .gal h1{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery{
+    width: 42%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .gal h1{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery{
+    width: 92%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .gal h1{
+    font-size: 40px;
+  }
+}

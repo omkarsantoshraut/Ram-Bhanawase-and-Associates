@@ -1,0 +1,58 @@
+.guide{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.guide form {
+  width: 100%;
+  box-shadow: 1px 1px 10px 1px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.guide form input,
+.guide form textarea,
+.guide form button{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.guide form h1{
+  text-align: center;
+  padding-top: 2%;
+}
+.active_guidelines{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.active_guidelines caption h1{
+  text-align: center;
+  font-size: 20px;
+}
+.active_guidelines table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+.active_guidelines table th,
+.active_guidelines table td{
+  border: 1px solid black;
+}
+
+
+
+
+
+
+.foot{
+  text-align: center;
+  background-image: linear-gradient(to right, black, red);
+  position: relative;
+  clear: both;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 20px;
+}

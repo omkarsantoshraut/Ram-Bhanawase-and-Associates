@@ -1,0 +1,10 @@
+.model6,
+.model3,
+.model1{
+  position: relative;
+  clear: both;
+}
+.name{
+  position: sticky;
+  top: 0;
+}

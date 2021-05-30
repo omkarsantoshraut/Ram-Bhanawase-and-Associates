@@ -1,0 +1,52 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-image: linear-gradient(to right, black, red);
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 100px;
+}
+.logo{
+  float: left;
+  width: 18%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.name{
+  float: left;
+  width: 58%;
+  color: white;
+  font-size: 26px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.logout{
+  float: left;
+  width: 18%;
+  color: white;
+  font-size: 26px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.logout a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 775px) {
+  .logo,
+  .name,
+  .logout{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .header{
+    height: 250px;
+  }
+}

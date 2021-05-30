@@ -1,0 +1,30 @@
+body{
+  background-color: lightblue;
+}
+
+.img_slide{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  background-color: #E6B0AA;
+  color: white;
+}
+.img_slide form button{
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+
+
+.foot{
+  text-align: center;
+  background-image: linear-gradient(to right, black, red);
+  position: relative;
+  clear: both;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 20px;
+}

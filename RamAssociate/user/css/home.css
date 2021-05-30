@@ -1,0 +1,213 @@
+
+/* ----------------------------------------------------------------------------------- */
+* {
+        box-sizing: border-box
+      }
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+      }
+      .mySlides {
+        display: none
+      }
+      .mySlides img {
+        vertical-align: middle;
+        width: 100%;
+        height: 700px;
+      }
+      .slideshow-container {
+        max-width: 100%;
+        height: 700px;
+        position: relative;
+        margin: auto;
+      }
+
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 700px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .text h2{
+        padding-top: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+      }
+      .text h2:hover{
+        color:orange;
+      }
+      .text button{
+        padding: .5% 2%;
+        font-size: 20px;
+        border: 0;
+        background-color: lightblue;
+        border-radius: 5px;
+      }
+      .text button:hover{
+        font-weight: bold;
+        color: white;
+        background-color: blue;
+        box-shadow: 1px 1px 10px 1px;
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+
+
+/* --------------------------------------------------------------------------------------- */
+
+
+
+.container1{
+  margin-top: 2%;
+  padding-bottom: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container1 h1{
+  font-weight: bold;
+}
+
+.col1{
+  float: left;
+  width: 60%;
+  margin-left: 5%;
+}
+.col2{
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 2%;
+  background-color: white;
+  box-shadow: 7px 7px 10px black;
+}
+.who_we_are p{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 18px;
+}
+.Why_to_choose_us p{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 18px;
+}
+.Why_to_choose_us ul{
+  padding-left: 10%;
+  padding-right: 5%;
+  font-size: 18px;
+}
+.col2 h1{
+  text-align: center;
+  background-color: #5499C7;
+  margin-top: 0%;
+  padding: 5%;
+  color: white;
+}
+.col2 a{
+  text-decoration: none;
+}
+.col2 a:hover{
+  text-decoration: underline;
+}
+.col2 marquee{
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+.col2 hr{
+  color: black;
+}
+
+
+
+  @media screen and (max-width: 1040px) {
+    .text h2{
+      font-size: 50px;
+      margin-top: 5%;
+    }
+    .mySlides img,
+    .text {
+      height: 500px;
+    }
+    .slideshow-container {
+      height: 500px;
+    }
+
+    .who_we_are p{
+      font-size: 16px;
+    }
+    .Why_to_choose_us p{
+      font-size: 16px;
+    }
+    .Why_to_choose_us ul{
+      font-size: 16px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .text h2{
+      font-size: 40px;
+    }
+    .text button{
+      font-size: 18px;
+    }
+    .mySlides img,
+    .text {
+      height: 400px;
+    }
+    .slideshow-container {
+      height: 400px;
+    }
+
+    .col1{
+      width: 90%;
+    }
+    .col2{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+  .text h2{
+    font-size: 25px;
+  }
+  .text button{
+    font-size: 16px;
+  }
+  .mySlides img,
+  .text {
+    height: 350px;
+  }
+  .slideshow-container {
+    height: 350px;
+  }
+
+
+  }
+
+  @media screen and (max-width: 300px) {
+    .text h2{
+      font-size: 20px;
+    }
+    .mySlides img,
+    .text {
+      height: 300px;
+    }
+  }

@@ -1,0 +1,57 @@
+.key{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.key form {
+  width: 100%;
+  box-shadow: 1px 1px 10px 1px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.key form input,
+.key form button{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.key form h1{
+  text-align: center;
+  padding-top: 2%;
+}
+.active_keys{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.active_keys caption h1{
+  text-align: center;
+  font-size: 20px;
+}
+.active_keys table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+.active_keys table th,
+.active_keys table td{
+  border: 1px solid black;
+}
+
+
+
+
+
+
+.foot{
+  text-align: center;
+  background-image: linear-gradient(to right, black, red);
+  position: relative;
+  clear: both;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 20px;
+}
